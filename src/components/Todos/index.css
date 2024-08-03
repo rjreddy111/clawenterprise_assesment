@@ -1,0 +1,48 @@
+.todos-description {
+    width: 80%;
+    margin-bottom: 15px;
+    height: 40px;
+    border: 1px solid grey;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+.todo-main-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9edcf5;
+    height: 100vh;
+}
+
+.todo-form-card {
+    background-image: linear-gradient(#9759f3,skyblue);
+    width: 60%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add-todo-button {
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width:100px;
+    background-color: #f85545;
+    color: antiquewhite;
+}
+
+.horizontal-todo-line {
+    width: 100vw;
+    color: red;
+}
+
+.added-todo-item {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
